@@ -2,3 +2,7 @@
 # //* Make with python
 
 # //* Dont need a database, or can have a very simple MongoDB one where users can store the image
+
+# //* Add in the streamlit package for the python browser.
+
+#  //* use a virtual envrinonment to make it as well
