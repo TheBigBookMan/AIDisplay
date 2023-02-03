@@ -18,7 +18,7 @@ st.set_page_config(layout="wide")
 
 st.title("AI Art")
 st.subheader("A speech to AI art creator")
-st.write("Welcome to AI Art. An application where the user can tell the computer what image they would like to be created and then it will appear right before you. This is using the power of speech-to-text and then word-to-art AI art generator.")
+st.write("Welcome to AI Art. An application where you can tell the computer what image you would like to be created and then it will appear right before you. This is using the power of speech-to-text and then word-to-art AI art generator.")
 
 st.subheader("Here are just a few examples of art and their speech prompts...")
 
