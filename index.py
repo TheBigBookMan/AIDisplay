@@ -14,3 +14,25 @@
 import streamlit as st
 
 st.set_page_config(layout="wide")
+
+
+st.title("AI Art")
+st.subheader("A speech to AI art creator")
+st.write("Welcome to AI Art. An application where the user can tell the computer what image they would like to be created and then it will appear right before you. This is using the power of speech-to-text and then word-to-art AI art generator.")
+
+st.subheader("Here are just a few examples of art and their speech prompts...")
+
+col1, col2 = st.columns(2)
+
+
+with col1:
+    st.image("images/Burning Man.png", width=200)
+    st.write("Burning Man music festival infront of the galaxy")
+    st.image("images/Cyborg.png", width=200)
+    st.write("A cyborg smoking a cigarette while standing in a train station")
+
+with col2:
+    st.image("images/Jumping.png", width=200)
+    st.write("A man jumping off a cliff into a nebula")
+    st.image("images/Nostalgia.png", width=200)
+    st.write("Listening to nostalgic music in the style of Salvador Dali")
