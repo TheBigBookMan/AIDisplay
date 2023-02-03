@@ -2,3 +2,15 @@
 # //* Make with python
 
 # //* Dont need a database, or can have a very simple MongoDB one where users can store the image
+
+### info about how to do text to speech and speech to text
+# https://www.geeksforgeeks.org/python-convert-speech-to-text-and-text-to-speech/
+
+# the application will ask out in speech "What would you like to create?"
+#You speak your details "a man in a blue sweater and red hat in the ocean"
+# application shows the words on the screen and asks you to confirm
+# if confirm then it creataes the AI pic
+
+import streamlit as st
+
+st.set_page_config(layout="wide")
