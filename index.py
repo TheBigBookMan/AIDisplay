@@ -12,7 +12,7 @@
 # if confirm then it creataes the AI pic
 
 import streamlit as st
-
+# create the layout of the gui
 st.set_page_config(layout="wide")
 
 
@@ -22,6 +22,7 @@ st.write("Welcome to AI Art. An application where you can tell the computer what
 
 st.subheader("Here are just a few examples of art and their speech prompts...")
 
+#create the columns for the layout
 col1, col2 = st.columns(2)
 
 
